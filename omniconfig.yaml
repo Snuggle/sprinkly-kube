@@ -1,7 +1,0 @@
-contexts:
-    default:
-        url: https://sprinkly.eu-central-1.omni.siderolabs.io
-        auth:
-            siderov1:
-                identity: evie@snugg.ie
-context: default
