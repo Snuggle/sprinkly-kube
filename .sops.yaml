@@ -8,6 +8,7 @@ creation_rules:
     mac_only_encrypted: true
     age: "age1qn3t6h86a72zkjna0zc4823ra5270vf579ljetcs0gpdw8p9duesd7pwhs"
   - path_regex: apps/.*\.yaml  # Matches any yaml file inside the apps folder
+    encrypted_regex: "^(data|stringData)$"
     age: "age1qn3t6h86a72zkjna0zc4823ra5270vf579ljetcs0gpdw8p9duesd7pwhs"
 stores:
   yaml:
